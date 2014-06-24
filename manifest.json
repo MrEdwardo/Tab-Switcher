@@ -1,0 +1,21 @@
+{
+  "name": "Tab Switcher",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "Ctrl + Tab to select the previously-selected tab.",
+  "icons" : {
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": ["tabs"],
+  "commands": {
+          "Go to last-used tab": {
+            "suggested_key": {
+              "default": "Ctrl+Tab",
+              "mac": "MacCtrl+Tab"
+            } ,
+            "description": "Ctrl + Tab Go to previously-selected tab"
+          }
+  }
+}
